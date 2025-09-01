@@ -68,13 +68,6 @@ export default function LaewFitGym() {
                 size="lg"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 text-lg"
               >
-                Prueba Gratis 7 Días
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-black px-8 py-4 text-lg"
-              >
                 Ver Planes
               </Button>
             </div>
@@ -167,7 +160,7 @@ export default function LaewFitGym() {
                     <CheckCircle className="h-6 w-6 text-orange-500 mt-1 flex-shrink-0" />
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-2">Horarios Flexibles</h3>
-                      <p className="text-gray-400">Abierto 24/7 para que entrenes cuando mejor te convenga.</p>
+                      <p className="text-gray-400">horario de atencio de 7am a 8pm</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -213,12 +206,12 @@ export default function LaewFitGym() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-1 gap-8 max-w-md mx-auto">
               {/* Plan Básico */}
               <Card className="bg-black border-gray-700 hover:border-orange-500/50 transition-all duration-300">
                 <CardHeader className="text-center">
-                  <CardTitle className="text-2xl text-white mb-2">Plan Básico</CardTitle>
-                  <div className="text-4xl font-bold text-orange-500 mb-2">$29.99</div>
+                  <CardTitle className="text-2xl text-white mb-2">plan básico</CardTitle>
+                  <div className="text-4xl font-bold text-orange-500 mb-2">$20.00</div>
                   <CardDescription className="text-gray-400">por mes</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
@@ -232,78 +225,11 @@ export default function LaewFitGym() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Vestuarios y duchas</span>
+                    <span className="text-gray-300">Vestuarios</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Horario 6am - 10pm</span>
-                  </div>
-                  <Button className="w-full bg-orange-500 hover:bg-orange-600 mt-6">Elegir Plan</Button>
-                </CardContent>
-              </Card>
-
-              {/* Plan Premium */}
-              <Card className="bg-gradient-to-b from-orange-500/10 to-black border-orange-500 relative">
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <Badge className="bg-orange-500 text-white">Más Popular</Badge>
-                </div>
-                <CardHeader className="text-center">
-                  <CardTitle className="text-2xl text-white mb-2">Plan Premium</CardTitle>
-                  <div className="text-4xl font-bold text-orange-500 mb-2">$49.99</div>
-                  <CardDescription className="text-gray-400">por mes</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Todo del plan básico</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Clases grupales ilimitadas</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Acceso 24/7</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Área funcional</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">1 sesión de entrenamiento personal</span>
-                  </div>
-                  <Button className="w-full bg-orange-500 hover:bg-orange-600 mt-6">Elegir Plan</Button>
-                </CardContent>
-              </Card>
-
-              {/* Plan Elite */}
-              <Card className="bg-black border-gray-700 hover:border-orange-500/50 transition-all duration-300">
-                <CardHeader className="text-center">
-                  <CardTitle className="text-2xl text-white mb-2">Plan Elite</CardTitle>
-                  <div className="text-4xl font-bold text-orange-500 mb-2">$79.99</div>
-                  <CardDescription className="text-gray-400">por mes</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Todo del plan premium</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Entrenamiento personal ilimitado</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Plan nutricional personalizado</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Acceso a área VIP</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <CheckCircle className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-300">Evaluaciones corporales mensuales</span>
+                    <span className="text-gray-300">Horario de atencion de 7am a 8pm</span>
                   </div>
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 mt-6">Elegir Plan</Button>
                 </CardContent>
@@ -412,30 +338,30 @@ export default function LaewFitGym() {
                     <MapPin className="h-6 w-6 text-orange-500 mt-1" />
                     <div>
                       <h4 className="text-lg font-semibold text-white">Dirección</h4>
-                      <p className="text-gray-400">Av. Principal 123, Centro de la Ciudad</p>
-                      <p className="text-gray-400">Ciudad, Estado 12345</p>
+                      <p className="text-gray-400">Plaza Puruha</p>
+                      <p className="text-gray-400">Riobamba, Ecaudor</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Phone className="h-6 w-6 text-orange-500 mt-1" />
                     <div>
                       <h4 className="text-lg font-semibold text-white">Teléfono</h4>
-                      <p className="text-gray-400">+1 (555) 123-4567</p>
+                      <p className="text-gray-400">+593 995027723</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Mail className="h-6 w-6 text-orange-500 mt-1" />
                     <div>
                       <h4 className="text-lg font-semibold text-white">Email</h4>
-                      <p className="text-gray-400">info@laewfit.com</p>
+                      <p className="text-gray-400">laewfitgym@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Clock className="h-6 w-6 text-orange-500 mt-1" />
                     <div>
                       <h4 className="text-lg font-semibold text-white">Horarios</h4>
-                      <p className="text-gray-400">24 horas, 7 días a la semana</p>
-                      <p className="text-gray-400 text-sm">(Plan Premium y Elite)</p>
+                      <p className="text-gray-400">7 Am a 8 Pm, Lunes a Viernes</p>
+                      <p className="text-gray-400 text-sm"></p>
                     </div>
                   </div>
                 </div>
@@ -509,15 +435,18 @@ export default function LaewFitGym() {
                 Tu gimnasio de confianza para alcanzar tus objetivos fitness y transformar tu vida.
               </p>
               <div className="flex space-x-4">
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">f</span>
-                </div>
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">ig</span>
-                </div>
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white text-sm">tw</span>
-                </div>
+                                <Link href="https://www.tiktok.com/@laew.fit?lang=es" target="_blank" rel="noopener noreferrer">
+                  <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                    <svg
+                      className="text-white h-5 w-5"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-2.43.05-4.84-.95-6.43-2.8-1.59-1.87-2.16-4.2-1.8-6.51.42-2.58 2.39-4.5 4.81-5.62 2.42-1.12 5.11-1.19 7.56-.19.57.23 1.09.53 1.59.87v-4.66c-.29-.15-.58-.31-.86-.48-.88-.52-1.82-.86-2.79-1.05-1.02-.19-2.05-.25-3.08-.25-1.4-.01-2.8-.01-4.2.02z" />
+                    </svg>
+                  </div>
+                </Link>
               </div>
             </div>
 
@@ -555,31 +484,17 @@ export default function LaewFitGym() {
                     Plan Básico
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="hover:text-orange-500 transition-colors">
-                    Plan Premium
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-orange-500 transition-colors">
-                    Plan Elite
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-orange-500 transition-colors">
-                    Pases Diarios
-                  </Link>
-                </li>
+                
               </ul>
             </div>
 
             <div>
               <h4 className="text-lg font-semibold text-white mb-4">Contacto</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>Av. Principal 123</li>
-                <li>Ciudad, Estado 12345</li>
-                <li>+1 (555) 123-4567</li>
-                <li>info@laewfit.com</li>
+                <li>Plaza Puruha </li>
+                <li>Riobamba, Ecuador</li>
+                <li>+593 995027723</li>
+                <li>laewfitgym@gmail.com</li>
               </ul>
             </div>
           </div>
